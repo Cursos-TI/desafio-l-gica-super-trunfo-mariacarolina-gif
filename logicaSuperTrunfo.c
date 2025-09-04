@@ -1,9 +1,9 @@
 #include <stdio.h>
-
+#include <string.h>
 struct Carta {
     char estado[30];
     char codigo[10];
-    char nomeCidade[50];
+    char cidade[50];
     int populacao; 
     float area;
     float pib;
@@ -11,17 +11,15 @@ struct Carta {
     float densidadePopulacional;
     float pibPerCapita;
 };
-// Desafio Super Trunfo - Países
-// Tema 2 - Comparação das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de comparação de cartas de cidades. 
-// Siga os comentários para implementar cada parte do desafio.
-Inclusão de printf para identificação das cartas
 int main() {
     struct Carta carta1, carta2;
     // ==== Cadastro da Carta 1 ====
     printf("=== Cadastro da Carta1=== \n");
     printf("Digite o Estado: ");
     scanf("%s", carta1.estado);
+
+    printf("Digite o Código da Carta");
+    scanf("%s", carta1.codigo);
 
 
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
