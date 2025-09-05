@@ -18,8 +18,23 @@ int main() {
     printf("Digite o Estado: ");
     scanf("%s", carta1.estado);
 
-    printf("Digite o Código da Carta");
+    printf("Digite o Código da Carta: ");
     scanf("%s", carta1.codigo);
+
+    printf("Digite o nome da Cidade: ");
+    scanf("%s", carta1.cidade);
+
+    printf("Digite a População: ");
+    scanf("%d", carta1.populacao);
+
+    printf("Digite a área (km²): ");
+    scanf("%f", &carta1.area);
+
+    printf("Digite o PIB(em bilhões): ");
+    scanf("%f", &carta1.pib);
+
+    printf("Digite o número de pontos turísticos: ");
+    sanf("%d", &carta1.numPontosTuristicos);
 
 
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
