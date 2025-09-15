@@ -11,6 +11,15 @@ int main() {
     float pib1;
     int pontos_turisticos1;
 
+    // Declaração das variáveis para a segunda carta
+    char estado2;
+    char codigo_carta2[4];
+    char nome_cidade2[50];
+    int populacao2;
+    float area2;
+    float pib2;
+    int pontos_turisticos2;
+
 // --- Leitura da primeira carta ---
     printf("=== Cadastro da Carta1=== \n");
     printf("Digite o estado da carta-(de A até H): ");
