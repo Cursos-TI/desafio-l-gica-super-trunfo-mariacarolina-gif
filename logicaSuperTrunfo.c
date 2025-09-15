@@ -1,22 +1,20 @@
 #include <stdio.h>
 #include <string.h>
-struct Carta {
-    char estado[30];
-    char codigo[10];
-    char cidade[50];
-    int populacao; 
-    float area;
-    float pib;
-    int numPontosTuristicos;
-    float densidadePopulacional;
-    float pibPerCapita;
-};
+
 int main() {
-    struct Carta carta1, carta2;
-    // ==== Cadastro da Carta 1 ====
+     // Declaração das variáveis para a primeira carta
+    char estado1;
+    char codigo_carta1[4]; 
+    char nome_cidade1[50];
+    int populacao1;
+    float area1;
+    float pib1;
+    int pontos_turisticos1;
+
+// --- Leitura da primeira carta ---
     printf("=== Cadastro da Carta1=== \n");
-    printf("Digite o Estado: ");
-    scanf("%s", carta1.estado);
+    printf("Digite o estado da carta-(de A até H): ");
+    scanf("%c", &estado1)
 
     printf("Digite o Código da Carta: ");
     scanf("%s", carta1.codigo);
@@ -34,7 +32,7 @@ int main() {
     scanf("%f", &carta1.pib);
 
     printf("Digite o número de pontos turísticos: ");
-    sanf("%d", &carta1.numPontosTuristicos);
+    scanf("%d", &carta1.numPontosTuristicos);
 
 
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
