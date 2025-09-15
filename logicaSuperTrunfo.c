@@ -23,30 +23,36 @@ int main() {
 // --- Leitura da primeira carta ---
     printf("=== Cadastro da Carta1=== \n");
     printf("Digite o estado da carta-(de A até H): ");
-    scanf("%c", &estado1)
-
+    scanf("%c", &carta1.estado);
     printf("Digite o Código da Carta: ");
     scanf("%s", carta1.codigo);
-
     printf("Digite o nome da Cidade: ");
     scanf("%s", carta1.cidade);
-
     printf("Digite a População: ");
-    scanf("%d", carta1.populacao);
-
+    scanf("%d", carta1.populacao); 
     printf("Digite a área (km²): ");
     scanf("%f", &carta1.area);
-
     printf("Digite o PIB(em bilhões): ");
     scanf("%f", &carta1.pib);
-
     printf("Digite o número de pontos turísticos: ");
     scanf("%d", &carta1.numPontosTuristicos);
 
-
-    // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
-    // utilizando a função scanf para capturar as entradas.
-    // utilize o código do primeiro desafio
+// --- Leitura da segunda carta ---
+    printf("Digite o estado da carta-(De A até H): ");
+    scanf("%c", &carta2.estado);
+    printf("Digite o Código da Carta: ");
+    scanf("%s", carta2.codigo);
+    printf("Digite o nome da Cidade: ");
+    scanf("%s", carta2.cidade);
+    printf("Digite a População: ");
+    scanf("%d", carta2.populacao);
+    printf("Digite a área(km²): ");
+    scanf("%f", &carta2.area);
+    printf("Digite o PIB (em bilhões): ");
+    scanf("%f", &carta2.pib);
+    printf("Digite o número de pontos turísticos: ");
+    scanf("%d", &carta2.numPontosTuristicos);
+   
 
     // Exemplo:
     // printf("Digite o código da cidade: ");
