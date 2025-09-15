@@ -38,6 +38,7 @@ int main() {
     scanf("%d", &pontos_turisticos1);
 
 // --- Leitura da segunda carta ---
+    printf("=== Cadastro da Carta2=== \n");
     printf("Digite o estado da carta-(De A até H): ");
     scanf("%c", &estado2);
     printf("Digite o Código da Carta: ");
@@ -53,30 +54,30 @@ int main() {
     printf("Digite o número de pontos turísticos: ");
     scanf("%d", &pontos_turisticos2);
    
+    printf("\n");
+    
+    // --- Exibição da primeira carta ---)
+    printf("--- Carta 1 ---\n");
+    printf("Estado: %c\n", estado1);
+    printf("Código da Carta: %s\n", codigo_carta1);
+    printf("Nome da Cidade: %s\n", nome_cidade1);
+    printf("População: %d\n", populacao1);
+    printf("Área (km²): %.2f\n", area1);  
+    printf("PIB (em bilhões): %.2f\n", pib1);
+    printf("Número de pontos turísticos: %d\n", pontos_turisticos1);     
 
-    // Exemplo:
-    // printf("Digite o código da cidade: ");
-    // scanf("%s", codigo);
-    // 
-    // (Repita para cada propriedade)
+    printf("\n");
 
-    // Comparação de Cartas:
-    // Desenvolva a lógica de comparação entre duas cartas.
-    // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
-
-    // Exemplo:
-    // if (populacaoA > populacaoB) {
-    //     printf("Cidade 1 tem maior população.\n");
-    // } else {
-    //     printf("Cidade 2 tem maior população.\n");
-    // }
-
-    // Exibição dos Resultados:
-    // Após realizar as comparações, exiba os resultados para o usuário.
-    // Certifique-se de que o sistema mostre claramente qual carta venceu e com base em qual atributo.
-
-    // Exemplo:
-    // printf("A cidade vencedora é: %s\n", cidadeVencedora);
+    // --- Exibição da segunda carta ---
+    printf("--- Carta 2 ---\n");
+    printf("Estado: %c\n", estado2);
+    printf("Código da Carta: %s\n", codigo_carta2);
+    printf("Nome da Cidade: %s\n", nome_cidade2);
+    printf("População: %d\n", populacao2);
+    printf("Área (km²): %.2f\n", area2);
+    printf("PIB (em bilhões): %.2f\n", pib2);
+    printf("Número de pontos turísticos: %d\n", pontos_turisticos2);
+    printf("\n");
 
     return 0;
 }
